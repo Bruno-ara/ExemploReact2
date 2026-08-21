@@ -1,10 +1,11 @@
-import React from 'react'
+import Aluno from "./components/Aluno"
 
 const App = () => {
   return (
-    <div>
-
-    </div>
+    <>
+    {/* passando variaveis para concatenar */}
+      <Aluno nome="Fiap" idade="30" />
+    </>
   )
 }
 
